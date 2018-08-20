@@ -35,6 +35,8 @@ dependencies {
     compile("org.springframework.data:spring-data-rest-webmvc")
     compile("org.json:json")
     compile("log4j:log4j")
+    compile (group: 'com.vendhq', name: 'api', version: '2.0.1') 
+
     testCompile('org.springframework.boot:spring-boot-starter-test')
   
 }
